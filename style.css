@@ -1,104 +1,62 @@
 body {
     background-color: blanchedalmond;
-    
+    width: 1200px;
+    margin: auto;
   }
+#mainfield
+{
+  display: flex;
+  justify-content: space-between;
+}
 #logo {
+    border-radius: 5px;
     background-color: burlywood;
     width: 100%;
+    margin: auto;
     height: 50px;
-    position: fixed;
+    position: relative;
     text-align: center;
     font: italic;
     font-size: 50px; 
     color: azure;
 }
-#mainfield {
+#infofield {
+    padding: 20px;
     background-color: ivory;
-    width: 1200px;
-    position: fixed;
-    left: 50%;
-    margin-left: -600px;
-    top: 108px;
-    height: 100%;
+    width: auto;
+    position: relative;
+    width: 1000px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 800px;
 }
 #menu {
+    border-radius: 5px;
     background-color: ivory;
-    width: 200px;
-    height: 326px;
-    position: fixed;
-    left: 5%;
-    top: 140px;
-    
+    width: 250px;
+    height: 100%;
+    position: relative;
+    top: 10px;
+
 }
-#button1 {
+.button:hover{background-color: rgb(185, 231, 185);}
+.button {
+  
   position: relative;
-  top: 5px;
-  left: 5%;
+  margin: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
   background-color: lightgreen; 
   /* border: none; */
   color: white;
-  padding: 10px 50px;
-  font-optical-sizing: auto;
-  text-align: left;
+  padding: 1px 1px;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 25px;
+  font-size: 30px;
 }
-#button2 {
-  position: relative;
-  top: 5px;
-  left: 5%;
-  background-color: lightgreen; 
-  /* border: none; */
-  color: white;
-  padding: 10px 50px;
-  font-optical-sizing: auto;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-}
-#button3 {
-  position: relative;
-  top: 5px;
-  left: 5%;
-  background-color: lightgreen; 
-  /* border: none; */
-  color: white;
-  padding: 10px 50px;
-  font-optical-sizing: auto;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-}
-#button4 {
-  position: relative;
-  top: 5px;
-  left: 5%;
-  background-color: lightgreen; 
-  /* border: none; */
-  color: white;
-  padding: 10px 50px;
-  font-optical-sizing: auto;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-}
-#button5 {
-  position: relative;
-  top: 5px;
-  left: 5%;
-  background-color: lightgreen; 
-  /* border: none; */
-  color: white;
-  padding: 10px 50px;
-  font-optical-sizing: auto;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
+
 }
   h1 {
     color: navy;

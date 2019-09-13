@@ -1,0 +1,16 @@
+.biography {
+    border-radius: 5px;
+    background-color: rgb(231, 220, 200);
+    width: auto;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.details {
+    border-radius: 5px;
+    background-color: rgb(231, 220, 200);
+    width: 300px;
+    height: auto;
+    position: relative;
+    margin-top: 10px;
+}
