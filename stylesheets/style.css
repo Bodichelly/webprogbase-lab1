@@ -1,12 +1,8 @@
 body {
     background: url(../images/background3.jpeg) repeat fixed ;
-    /* background-color: blanchedalmond; */
     width: 1200px;
     margin: auto;
   }
-/* #cat-bg {
-    background: url(baskground.jpg) repeat fixed;
-} */
 #mainfield
 {
   display: flex;
@@ -62,7 +58,6 @@ body {
   margin-right: 10%;
   width: 80%;
   background-color: lightgreen; 
-  /* border: none; */
   color: white;
   padding: 1px 1px;
   text-align: center;
@@ -70,23 +65,3 @@ body {
   display: inline-block;
   font-size: 30px;
 }
-/* .servicebutton:hover{background-color: rgb(185, 231, 185);}
-.servicebutton{
-  position: relative;
-  margin: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
-  width: 80%;
-  background-color: lightgreen; 
-  color: white;
-  padding: 1px 1px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 30px;
-} */
-
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
